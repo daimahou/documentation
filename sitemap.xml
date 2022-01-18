@@ -6,17 +6,12 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.daimahougames.com/test/</loc>
+         <loc>https://docs.daimahougames.com/abilities/</loc>
          <lastmod>2022-01-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.daimahougames.com/Abilities/</loc>
-         <lastmod>2022-01-18</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://docs.daimahougames.com/Abilities/GettingStarted/</loc>
+         <loc>https://docs.daimahougames.com/core/</loc>
          <lastmod>2022-01-18</lastmod>
          <changefreq>daily</changefreq>
     </url>
