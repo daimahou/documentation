@@ -34,7 +34,7 @@ Let the process complete and if everything went fine, your console shouldn't hav
 
     ``` /Assets/Plugins/DaimahouGames/Packages``` 
 
-# Examples
+## Examples
 
 After the successful installation of both **Game Creator** and **Abilities**, another menu will appear in the Installation window. This menu will provide with additional content in the form of *examples* to get you familiar with the different concepts that makes up **Abilities**.
 
