@@ -1,5 +1,3 @@
-# Getting Started
-
 # Installation
 
 This page will guide you through the installation of the **Abilities** module for Game Creator.
@@ -21,14 +19,39 @@ Before going further, please make sure that you have downloaded and installed **
 
 Once this process completed, you will have a new "Game Creator" menu at the top-toolbar. Open it the menu and click on *Install...* The following window will open.
 
-
 <figure markdown>
   ![Image title](https://github.com/daimahou/documentation/blob/main/docs/img/install.png?raw=true){ width="600" }
-  <figcaption>Image caption</figcaption>
+  <figcaption>Install window - Core</figcaption>
 </figure>
 
+Select **Abilities** in the menu tree, and then click on *Install x.y.z* button. This will automatically install all the necessary packages.
 
-!!! todo
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla et euismod
-    nulla. Curabitur feugiat, tortor non consequat finibus, justo purus auctor
-    massa, nec semper lorem quam in massa.
+Let the process complete and if everything went fine, your console shouldn't have any errors. If you do, please feel free to reach out to our [support email](mailto:daimahou.studio@gmail.com).
+
+!!! tip "Using Git ? Add the following lines to your .gitignore file"
+    
+    ``` # Daimahou Games``` 
+
+    ``` /Assets/Plugins/DaimahouGames/Packages``` 
+
+# Examples
+
+After the successful installation of both **Game Creator** and **Abilities**, another menu will appear in the Installation window. This menu will provide with additional content in the form of *examples* to get you familiar with the different concepts that makes up **Abilities**.
+
+
+For more information on how to install *examples*, please refer to the [following link](https://docs.gamecreator.io/gamecreator/getting-started/examples/).
+
+
+Once installed, the example will appear under ```Assets/Plugins/GameCreator/Installs/``` or you can simply click the Select button to automatically select the example's folder.
+
+<figure markdown>
+  ![Image title](https://github.com/daimahou/documentation/blob/main/docs/img/install-examples.png?raw=true){ width="600" }
+  <figcaption>Install window - Examples</figcaption>
+</figure>
+
+!!! danger "Uninstallation"
+
+    Although examples can be uninstall by simply clicking the Uninstall button. To uninstall Abilities and the Core module of Daimahou, simply pressing the uninstall button will NOT be enough. AFTER pressing uninstall, please delete the following folder :
+
+    ``` /Assets/Plugins/DaimahouGames/Packages ```
+
