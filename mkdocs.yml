@@ -22,15 +22,15 @@ theme:
     - navigation.indexes
 
   palette: 
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
     - scheme: slate 
       accent: pink
       toggle:
         icon: material/weather-night
         name: Switch to light mode
-    - scheme: default
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
 
 extra:
   social:
