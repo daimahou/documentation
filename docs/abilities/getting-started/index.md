@@ -21,10 +21,9 @@ Before going further, please make sure that you have downloaded and installed **
 
 Once this process completed, you will have a new "Game Creator" menu at the top-toolbar. Open it the menu and click on *Install...* The following window will open.
 
-![Screenshot](img/install.png)
 
 <figure markdown>
-  ![Image title](img/install.png){ width="600" }
+  ![Image title](https://github.com/daimahou/documentation/blob/main/docs/img/install.png?raw=true){ width="600" }
   <figcaption>Image caption</figcaption>
 </figure>
 
