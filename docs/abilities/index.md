@@ -17,25 +17,25 @@ Abilities is packed with features of its own, targeting system, animation synchr
 
 A suite of tools that allows the designer to create abilities with synchronized animation and effects.
 
-- **Reactive Gesture**: allows you to synchronize animation effortlessly
+- **[Reactive Gesture](../core/features/gestures.md)**: allows you to synchronize animation effortlessly
 
-- **Abilities**: allows you to create abilities with customizable components.
+- **[Abilities](ability-asset/index.md)**: allows you to create abilities with customizable components.
 
-- **Projectiles & Impacts**: allows you to configure projectiles with custom trajectory, spawn pattern and impact effects.
+- **[Projectiles & Impacts](projectiles/index.md)**: allows you to configure projectiles with custom trajectory, spawn pattern and impact effects.
 
 
 Abilities are defined by 5 different sub-systems designed to be flexible and easy to use.
 
 
-- **Targeting system**: Let you choose how the targets are selected.
+- **[Targeting system](ability-asset/#targeting-system)**: Let you choose how the targets are selected.
 
-- **Activation system**: Let you choose how the ability is executed - e.g. is it a direct spell or a chanelled spell.
+- **[Activation system](ability-asset/#activation-system)**: Let you choose how the ability is executed - e.g. is it a direct spell or a chanelled spell.
 
-- **Requirement system**: Let you define conditions that needs to be met for the ability to can be casted - e.g. cooldown, mana cost, or even arbitrary conditions.
+- **[Requirement system](ability-asset/#requirement-system)**: Let you define conditions that needs to be met for the ability to can be casted - e.g. cooldown, mana cost, or even arbitrary conditions.
 
-- **Filter system**: Let you define conditions that needs to be met for a target to be valid. Useful for removing friendly fire, or to create conditional effects - e.g. targets need to be on fire to be affected.
+- **[Filter system](ability-asset/#filter-system)**: Let you define conditions that needs to be met for a target to be valid. Useful for removing friendly fire, or to create conditional effects - e.g. targets need to be on fire to be affected.
 
-- **Effect system**: Let you specify what the ability will do once valid targets have been selected - e.g. applying damage, spawning projectiles, etc.
+- **[Effect system](ability-asset/#effect-system)**: Let you specify what the ability will do once valid targets have been selected - e.g. applying damage, spawning projectiles, etc.
 
 
 ## How does it work ?
@@ -43,13 +43,13 @@ Abilities are defined by 5 different sub-systems designed to be flexible and eas
 Very simple, yet extremely powerful approach. There is only 4 steps to create all the abilities you dreamt of.
 
 
-Configure your animations using the reactive gesture system to synchronize your effects and instructions precisely how YOU want.
+1. Configure your animations using the reactive gesture system to synchronize your effects and instructions precisely how YOU want.
 
-Configure your ability strategies so they apply to the targets of YOUR choice.
+1. Configure your ability strategies so they apply to the targets of YOUR choice.
 
-Specify the effects of your ability to match YOUR design.
+1. Specify the effects of your ability to match YOUR design.
 
-Spice up your ability by adding projectiles and impact which you can customize to create the abilities YOU envision.
+1. Spice up your ability by adding projectiles and impact which you can customize to create the abilities YOU envision.
 
 
 ## Errata

@@ -3,12 +3,34 @@ site_url: https://docs.daimahougames.com/
 nav:
     - Core:
       - core/index.md
+      - Features:
+        - core/features/index.md
+        - core/features/pawn.md
+        - core/features/action-state.md
+        - core/features/interaction.md
+        - core/features/gestures.md
+      - Visual Scripting:
+        - core/visual/index.md
+        - core/visual/instructions.md
+
     - Abilities: 
       - abilities/index.md
       - Installation: 
         - abilities/getting-started/index.md
       - Ability Asset:
         - abilities/ability-asset/index.md
+        - Targeting System: abilities/ability-asset/targeting.md
+        - Activation System: abilities/ability-asset/activation.md
+        - Requirement System: abilities/ability-asset/requirements.md
+        - Filter System: abilities/ability-asset/filters.md
+        - Effect System: abilities/ability-asset/effects.md
+      - Projectiles & Impacts:
+        - abilities/projectiles/index.md
+        - abilities/projectiles/projectiles.md
+        - abilities/projectiles/impacts.md
+      - Tutorials:
+        - abilities/tutorials/index.md
+      - Releases: releases.md
 
 theme: 
   name: material

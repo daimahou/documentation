@@ -11,6 +11,8 @@ Abilities are scriptable objects and to create one, you'll need to right click o
   <figcaption>Creating an ability</figcaption>
 </figure>
 
+## Ability Inspector 
+
 An Ability asset will appear, with a list of sections that can be expanded or collapsed so it is easy for the user to modify and organize their abilities.
 
 <figure markdown>
@@ -45,6 +47,8 @@ An Ability is defined by a scriptable object inside your project folder. It is o
   <figcaption>Ability inspector - unfolded</figcaption>
 </figure>
 
+## Execution sequence
+
 1. When the ability is triggered, the **Requirement system** determines if the ability can be executed.
 
 1. The **Targeting system** triggers the input and, determine the location the ability will activate from.
@@ -56,3 +60,42 @@ An Ability is defined by a scriptable object inside your project folder. It is o
 1. The **Targeting system** works together with the Filter system to determines the valid target(s).
 
 1. Finally, the **Effect system** applies the effects on the valid targets.
+
+<figure markdown>
+  ![Ability inspector](https://github.com/daimahou/documentation/blob/main/docs/img/execution-order.png?raw=true)
+</figure>
+
+!!! Note "Context Menu"
+	You can access a context menu by right clicking on most elements.
+	Elements can be replaced or disabled and documentation can be accessed through it.
+
+## Systems
+
+### Targeting System
+
+The targeting system is responsible for handling player input and acquiring targets.
+
+A target can be any game object or location.
+
+Depending on the system used, targeting happens in two phases. Once before activation to find the target location, and once after the activation to confirm the targets (c.f. #2 & #5 in the above graph).
+
+
+Some settings have automatic input, e.g. Cast on Self will automatically use the caster as a target, while others will require the player input, e.g. Cast on Location requires the player to click on the ground.
+
+<figure markdown>
+  ![Ability inspector](https://github.com/daimahou/documentation/blob/main/docs/img/Targeting-2.png?raw=true)
+  <figcaption>Targeting systems</figcaption>
+</figure>
+
+!!! note "AI Input"
+	A target can be submitted directly to the ability using an instruction to allow AI to use abilities as well. Refer to the Instructions section for more information.
+
+### Activation System
+
+The activation system is the center piece and dictates how the ability works.
+At the moment only one activation type exist, but more will be added.
+
+### Requirement System
+
+### Filter System
+### Effect System
