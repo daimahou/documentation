@@ -5,6 +5,8 @@ nav:
       - core/index.md
     - Abilities: 
       - abilities/index.md
+      - Getting Started: 
+        - abilities/getting-started/index.md
 
 theme: 
   name: material
@@ -16,19 +18,19 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.expand
+    - navigation.top
     - navigation.indexes
+
   palette: 
-    - scheme: default
-      primary: black
-      accent: deep orange
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to dark mode
     - scheme: slate 
-      primary: black
+      accent: pink
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
 
 extra:
   social:
@@ -38,8 +40,20 @@ extra:
     - icon: fontawesome/solid/paper-plane
       link: mailto:<daimahou.studio@gmail.com>
       name: Contact us
+  generator: false
+  homepage: https://daimahougames.com
 
 copyright: Copyright &copy; 2022 Nicolas Gerard
 
-extra:
-  generator: false
+markdown_extensions:
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+extra_css:
+- stylesheets/extra.css
