@@ -1,0 +1,10 @@
+.md-grid {
+  max-width: 1440px;
+}
+.md-header {
+	background-color: hsla(160, 65%, 00%, 1);
+}
+
+.md-tabs {
+	background-color: hsla(200, 70%, 55%, 1);
+}
