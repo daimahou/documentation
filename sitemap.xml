@@ -6,12 +6,47 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.daimahougames.com/releases/</loc>
+         <lastmod>2022-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.daimahougames.com/abilities/</loc>
          <lastmod>2022-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.daimahougames.com/abilities/getting-started/</loc>
+         <loc>https://docs.daimahougames.com/abilities/extra/</loc>
+         <lastmod>2022-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.daimahougames.com/abilities/ability-asset/</loc>
+         <lastmod>2022-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.daimahougames.com/abilities/ability-asset/activation/</loc>
+         <lastmod>2022-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.daimahougames.com/abilities/ability-asset/effects/</loc>
+         <lastmod>2022-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.daimahougames.com/abilities/ability-asset/filters/</loc>
+         <lastmod>2022-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.daimahougames.com/abilities/ability-asset/requirements/</loc>
+         <lastmod>2022-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.daimahougames.com/abilities/ability-asset/targeting/</loc>
          <lastmod>2022-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
@@ -26,7 +61,62 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://docs.daimahougames.com/abilities/projectiles/</loc>
+         <lastmod>2022-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.daimahougames.com/abilities/projectiles/impacts/</loc>
+         <lastmod>2022-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.daimahougames.com/abilities/projectiles/projectiles/</loc>
+         <lastmod>2022-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.daimahougames.com/abilities/tutorials/</loc>
+         <lastmod>2022-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://docs.daimahougames.com/core/</loc>
+         <lastmod>2022-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.daimahougames.com/core/features/</loc>
+         <lastmod>2022-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.daimahougames.com/core/features/action-state/</loc>
+         <lastmod>2022-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.daimahougames.com/core/features/gestures/</loc>
+         <lastmod>2022-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.daimahougames.com/core/features/interaction/</loc>
+         <lastmod>2022-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.daimahougames.com/core/features/pawn/</loc>
+         <lastmod>2022-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.daimahougames.com/core/visual/</loc>
+         <lastmod>2022-01-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.daimahougames.com/core/visual/instructions/</loc>
          <lastmod>2022-01-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
