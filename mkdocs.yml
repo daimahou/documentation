@@ -5,9 +5,8 @@ nav:
       - core/index.md
       - Features:
         - core/features/index.md
-        - core/features/pawn.md
+        - Pawn:  core/features/pawn.md
         - core/features/action-state.md
-        - core/features/interaction.md
         - core/features/gestures.md
       - Visual Scripting:
         - core/visual/index.md
@@ -26,8 +25,7 @@ nav:
         - Effect System: abilities/ability-asset/effects.md
       - Projectiles & Impacts:
         - abilities/projectiles/index.md
-        - abilities/projectiles/projectiles.md
-        - abilities/projectiles/impacts.md
+      - Extras: abilities/extra.md
       - Tutorials:
         - abilities/tutorials/index.md
       - Releases: releases.md
@@ -82,7 +80,6 @@ markdown_extensions:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences
 
 extra_css:
 - stylesheets/extra.css

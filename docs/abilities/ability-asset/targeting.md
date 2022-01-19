@@ -1,5 +1,6 @@
 # Target System
 
+
 ## Cast on Self
 
 This targeting system will automatically use the caster as target for the ability at input time ([#2](../#execution-sequence)). It will optionally target multiple targets at activation time ([#5](../#execution-sequence)).

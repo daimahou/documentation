@@ -73,14 +73,13 @@ An Ability is defined by a scriptable object inside your project folder. It is o
 
 ### Targeting System
 
-The targeting system is responsible for handling player input and acquiring targets.
+The targeting system is responsible for handling player *input* and *acquiring targets*.
 
-A target can be any game object or location.
+A *target* can be any game object or location.
 
-Depending on the system used, targeting happens in two phases. Once before activation to find the target location, and once after the activation to confirm the targets (c.f. #2 & #5 in the above graph).
+Depending on the system used, targeting happens in two phases. Once before activation to find the target location, and once after the activation to confirm the targets (c.f. [#2 & #5 in the above graph](#execution-sequence)).
 
-
-Some settings have automatic input, e.g. Cast on Self will automatically use the caster as a target, while others will require the player input, e.g. Cast on Location requires the player to click on the ground.
+Some settings have automatic input, *e.g. Cast on Self will automatically use the caster as a target*, while others will require the player input, *e.g. Cast on Location requires the player to click on the ground*.
 
 <figure markdown>
   ![Ability inspector](https://github.com/daimahou/documentation/blob/main/docs/img/Targeting-2.png?raw=true)
@@ -93,9 +92,41 @@ Some settings have automatic input, e.g. Cast on Self will automatically use the
 ### Activation System
 
 The activation system is the center piece and dictates how the ability works.
-At the moment only one activation type exist, but more will be added.
+
+The most basic activation type is the [Single activation](activation/#single), the abilities starts with an animation, applies its effects once, and then complete its execution with the end of the animation.
+
+Other activation types are Channeled and Charged activation.
+
+At the moment only the [Single activation](activation/#single) type is implemented, but more will be added in future updates.
 
 ### Requirement System
 
+The requirement system is responsible for controlling when the ability is use-able as well as managing its success conditions. Additionally it is also responsible for effects that are considered costs, *e.g. cooldowns and mana costs*.
+
+<figure markdown>
+  ![Ability inspector](https://github.com/daimahou/documentation/blob/main/docs/img/requirements.png?raw=true)
+</figure>
+
+The requirements defined by this system are of 2 types :
+
+- Requirement for use [(#1)](#execution-sequence): Condition that needs to be met in order to cast the ability. In case of failure the ability will simply not start.
+- Requirement for Activation [(#4)](#execution-sequence): Condition that needs to be met in order for the effects to resolve. In case of failure, the animation will stop and the ability will fail.
+
+Additionally, a requirement can sometime have a *side-effect* (which is applied during the activation [(#4)](#execution-sequence)), e.g. entering cooldown, or paying mana cost.
+
+
 ### Filter System
+
+The filter system is responsible for filtering targets according to filtering conditions. The most basic one is to filter out the caster to make sure the ability cannot backfire.
+
+<figure markdown>
+  ![Ability inspector](https://github.com/daimahou/documentation/blob/main/docs/img/filters.png?raw=true)
+</figure>
+
 ### Effect System
+
+The effect system defines what the ability will eventually do to its targets. This system is further enhanced by the [projectiles & impacts](../projectiles/index.md) system.
+
+<figure markdown>
+  ![Ability inspector](https://github.com/daimahou/documentation/blob/main/docs/img/effects.png?raw=true)
+</figure>

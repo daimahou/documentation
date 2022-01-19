@@ -22,3 +22,11 @@ The single activation starts an animation and wait for it to finish, ending the 
     </figure>
     This unit is an hybrid between **Pivot** and **Look at Target**, it acts as a Pivot when no targets are available, and acts as Look at Target when no targets are available.
     The need for this custom Rotation Unit is only to avoid the runtime error in the editor.
+
+## Channeling
+
+Coming soon
+
+## Charging
+
+Coming soon
