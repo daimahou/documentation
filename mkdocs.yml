@@ -1,5 +1,8 @@
 site_name: Documentation
 site_url: https://docs.daimahougames.com/
+plugins:
+    - search
+    - with-pdf
 nav:
     - Core:
       - core/index.md

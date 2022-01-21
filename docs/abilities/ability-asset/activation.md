@@ -9,7 +9,7 @@ The single activation starts an animation and wait for it to finish, ending the 
   ![Ability inspector](https://github.com/daimahou/documentation/blob/main/docs/img/Activation.png?raw=true)
 </figure>
 
-- **Animation** : [Reactive Gesture](../../core/gestures/index.md) containing the animation to play.
+- **Animation** : [Reactive Gesture](../../core/features/gestures.md) containing the animation to play.
 
 - **Face Target** : When enabled, will turn the character to face the target. Rotation speed is defined by the [Motion Unit](https://docs.gamecreator.io/gamecreator/characters/component/#motion).
 

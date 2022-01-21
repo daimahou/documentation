@@ -36,7 +36,7 @@ Let the process complete and if everything went fine, your console shouldn't hav
 
 ## Examples
 
-After the successful installation of both **Game Creator** and **Abilities**, another menu will appear in the Installation window. This menu will provide with additional content in the form of *examples* to get you familiar with the different concepts that makes up **Abilities**.
+After the successful installation of both **Game Creator** and **Abilities**, another menu will appear in the Installation window. This menu will provide you with additional content in the form of *examples* to get you familiar with the different concepts that makes up **Abilities**.
 
 
 For more information on how to install *examples*, please refer to the [following link](https://docs.gamecreator.io/gamecreator/getting-started/examples/).
@@ -51,7 +51,7 @@ Once installed, the example will appear under ```Assets/Plugins/GameCreator/Inst
 
 !!! danger "Uninstallation"
 
-    Although examples can be uninstall by simply clicking the Uninstall button. To uninstall Abilities and the Core module of Daimahou, simply pressing the uninstall button will NOT be enough. AFTER pressing uninstall, please delete the following folder :
+    Although examples can be uninstalled by simply clicking the Uninstall button. To uninstall Abilities and the Core module of Daimahou, simply pressing the uninstall button will NOT be enough. AFTER pressing uninstall, please delete the following folder :
 
     ``` /Assets/Plugins/DaimahouGames/Packages ```
 

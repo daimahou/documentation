@@ -4,4 +4,4 @@ The core module is mostly there to extend Game Creator's core and provide a basi
 
 - **Pawn**
 - **State Machine**
-- **[Reactive Gestures](features/gestures.md)**
+- **[Reactive Gestures](gestures.md)**
