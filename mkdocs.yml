@@ -5,7 +5,7 @@ plugins:
     #- with-pdf
 nav:
     - Core:
-      - core/index.md
+      - index.md
       - Features:
         - core/features/index.md
         - Pawn:  core/features/pawn.md
