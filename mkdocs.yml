@@ -14,6 +14,7 @@ nav:
       - Visual Scripting:
         - core/visual/index.md
         - core/visual/instructions.md
+      - Releases: core/releases.md
 
     - Abilities: 
       - abilities/index.md
@@ -33,6 +34,9 @@ nav:
         - abilities/tutorials/index.md
       - Releases: releases.md
 
+#    - Grids:
+#      - grids/index.md
+#      - Releases: grids/releases.md
 theme: 
   name: material
   logo: assets/logo.png
