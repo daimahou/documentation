@@ -2,18 +2,31 @@ site_name: Documentation
 site_url: https://docs.daimahougames.com/
 plugins:
     - search
-    #- with-pdf
+    # - with-pdf:
+    #     author: Gerard Nicolas
+    #     copyright: &copy 2022 DaimahouGames, Gerard Nicolas, All rights reserved.
+    #     cover_title: Daimahou Gameplay Modules
+    #     cover_subtitle: Documentation
 nav:
     - Core:
       - index.md
-      - Features:
-        - core/features/index.md
-        - Pawn:  core/features/pawn.md
-        - core/features/action-state.md
-        - core/features/gestures.md
+      - Systems:
+        - core/systems/index.md
+        - Pawn:
+          - core/systems/features/index.md
+          - Features:
+            - core/systems/features/brain.md
+            # - core/systems/features/faction.md
+          - States:
+            - core/systems/states/default.md
+            # - core/systems/states/move.md
+        - Controller: core/systems/input/controller.md
+        - core/systems/gestures.md
+      - Game Creator Extensions: core/systems/extensions.md
       - Visual Scripting:
-        - core/visual/index.md
+        # - core/visual/index.md
         - core/visual/instructions.md
+        # - core/visual/conditions.md
       - Releases: core/releases.md
 
     - Abilities: 
@@ -27,6 +40,10 @@ nav:
         - Requirement System: abilities/ability-asset/requirements.md
         - Filter System: abilities/ability-asset/filters.md
         - Effect System: abilities/ability-asset/effects.md
+      - Pawn feautures:
+        - abilities/features/caster.md
+        - abilities/features/cooldown.md
+      - Input: abilities/input.md
       - Projectiles & Impacts:
         - abilities/projectiles/index.md
       - Extras: abilities/extra.md
@@ -72,7 +89,7 @@ extra:
   generator: false
   homepage: https://daimahougames.com
 
-copyright: Copyright &copy; 2022 Nicolas Gerard
+copyright: Copyright &copy; 2022 Nicolas Gerard, All rights reserved.
 
 markdown_extensions:
   - md_in_html

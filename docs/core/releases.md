@@ -1,15 +1,11 @@
-### 1.1.0 Update 1.0
+### 1.1.0
 
-Refactor
-MoveState : Character will now go back to default state after reaching destination.
+Overall polish of pawn component.
 
-New Features:
-
-  - Factions
-    - Instructions: 
-    	- Change Faction
-    - Conditions: 
-    	- Are enemies
+- Pawn inspector
+- Feature configuration
+- Pawn state inspector
+- Reactive gesture editor polish
 
 
 ## 1.0.0 Release version 1

@@ -13,10 +13,6 @@ Get the **Abilities** package from the Unity Asset Store following the link belo
 
 Once you have purchased it, click on the *Import* button on the website and the Unity Editor's Package Manager window should appear with the **Ability** package selected. Click on Download and Import afterwards.
 
-Before going further, please make sure that you have downloaded and installed **UniRX**, a free library extension for Unity. You can find it in the asset store at the following link.
-
-[Get UniRX :fontawesome-brands-unity: ](https://assetstore.unity.com/packages/tools/integration/unirx-reactive-extensions-for-unity-17276){ .md-button .md-button--primary }
-
 Once this process completed, you will have a new "Game Creator" menu at the top-toolbar. Open it the menu and click on *Install...* The following window will open.
 
 <figure markdown>
