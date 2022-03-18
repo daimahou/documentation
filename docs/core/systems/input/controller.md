@@ -2,7 +2,7 @@
 
 A controller is an asset that represents a player controller in game. It is used to easily bind controls to functionality.
 
-A controller holds a series of input mappings which can be interpreted by each respective modules to create gameplay behaviour. Each button can be simply bound to a regular unity input action to customize which button corresponds to which action.
+A controller holds a series of input mappings which can be interpreted by each respective module to create gameplay behaviour. Each button can be simply bound to a regular unity input action to customize which button corresponds to which action.
 
 For a concrete example, have a look at the [Abilities input module](../../../abilities/input.md).
 

@@ -1,6 +1,6 @@
 # Ability
 
-The most fundamental part of Abilities is the Ability asset. It represent an action a character can perform in-game and comes packed with a collection of flexible and independent features that can be used to customize and control the way abilities work and feel in your game.
+The most fundamental part of Abilities is the Ability asset. It represents an action a character can perform in-game and comes packed with a collection of flexible and independent features that can be used to customize and control the way abilities work and feel in your game.
 
 ## Creating an ability
 
@@ -11,7 +11,7 @@ Abilities are scriptable objects and to create one, you'll need to right click o
   <figcaption>Creating an ability</figcaption>
 </figure>
 
-## Ability Inspector 
+## Ability Inspector
 
 An Ability asset will appear, with a list of sections that can be expanded or collapsed so it is easy for the user to modify and organize their abilities.
 
@@ -32,11 +32,11 @@ The **Range field** represents the distance within which the ability can reach.
 
 An Ability is defined by a scriptable object inside your project folder. It is organized into multiple collapse-able sections, each of which controls a very specific feature of this system.
 
-- **Targeting** : An input system that allows to change how the targets are acquired by the system. Automatically find the closest target, centers around the caster or at the mouse click are some of the different options.
+- **Targeting** : An input system that allows you to change how the targets are acquired by the system. Automatically find the closest target, centers around the caster or at the mouse click are some of the different options.
 
 - **Activation** : Controls how the ability activates its effect on the target and how input is processed. Some options are a single activation driven by an animation, or a channeling effect that stays active as long as it is on.
 
-- **Requirements** : Define conditions which needs to be met in order to for an ability to be cast-able. Some requirements can also prevent an ability from activate and/or apply a cost to it, *e.g. cooldown or mana cost.*
+- **Requirements** : Define conditions which need to be met in order for an ability to be cast-able. Some requirements can also prevent an ability from activate and/or apply a cost to it, *e.g. cooldown or mana cost.*
 
 - **Filters** : Define conditions that are used to filter the valid targets for your ability, *e.g. filtering the caster to prevent friendly fire.*
 
@@ -51,13 +51,13 @@ An Ability is defined by a scriptable object inside your project folder. It is o
 
 1. When the ability is triggered, the **Requirement system** determines if the ability can be executed.
 
-1. The **Targeting system** triggers the input and, determine the location the ability will activate from.
+1. The **Targeting system** triggers the input and determines the location the ability will activate from.
 
 1. The **Requirement system** determines if the ability can be activated and activation costs are paid.
 
 1. The **Activation system** decides how the ability will play out. Typically an animation is played using the Reactive Gesture system. Then, the animation sends a signal back to complete the activation.
 
-1. The **Targeting system** works together with the Filter system to determines the valid target(s).
+1. The **Targeting system** works together with the Filter system to determine the valid target(s).
 
 1. Finally, the **Effect system** applies the effects on the valid targets.
 
@@ -66,8 +66,8 @@ An Ability is defined by a scriptable object inside your project folder. It is o
 </figure>
 
 !!! Note "Context Menu"
-	You can access a context menu by right clicking on most elements.
-	Elements can be replaced or disabled and documentation can be accessed through it.
+You can access a context menu by right clicking on most elements.
+Elements can be replaced or disabled and documentation can be accessed through it.
 
 ## Systems
 
@@ -87,13 +87,13 @@ Some settings have automatic input, *e.g. Cast on Self will automatically use th
 </figure>
 
 !!! note "AI Input"
-	A target can be submitted directly to the ability using an instruction to allow AI to use abilities as well. Refer to the Instructions section for more information.
+A target can be submitted directly to the ability using an instruction to allow AI to use abilities as well. Refer to the Instructions section for more information.
 
 ### Activation System
 
-The activation system is the center piece and dictates how the ability works.
+The activation system is the centerpiece and dictates how the ability works.
 
-The most basic activation type is the [Single activation](activation/#single), the abilities starts with an animation, applies its effects once, and then complete its execution with the end of the animation.
+The most basic activation type is the [Single activation](activation/#single), the ability starts with an animation, applies its effects once, and then completes its execution with the end of the animation.
 
 Other activation types are Channeled and Charged activation.
 
@@ -112,7 +112,7 @@ The requirements defined by this system are of 2 types :
 - Requirement for use [(#1)](#execution-sequence): Condition that needs to be met in order to cast the ability. In case of failure the ability will simply not start.
 - Requirement for Activation [(#4)](#execution-sequence): Condition that needs to be met in order for the effects to resolve. In case of failure, the animation will stop and the ability will fail.
 
-Additionally, a requirement can sometime have a *side-effect* (which is applied during the activation [(#4)](#execution-sequence)), e.g. entering cooldown, or paying mana cost.
+Additionally, a requirement can sometimes have a *side-effect* (which is applied during the activation [(#4)](#execution-sequence)), e.g. entering cooldown, or paying mana cost.
 
 
 ### Filter System

@@ -1,11 +1,11 @@
 ### 1.1.0
 
-Overall polish of pawn component.
+Overall polish of all inspectors
 
-- Pawn inspector
-- Feature configuration
-- Pawn state inspector
-- Reactive gesture editor polish
+- [Pawn inspector](../../../core/systems/features/)
+    - Feature configuration
+    - Pawn state inspector
+- [Reactive Gesture State](../../../core/systems/features/)
 
 
 ## 1.0.0 Release version 1

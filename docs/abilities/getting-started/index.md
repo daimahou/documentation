@@ -13,11 +13,11 @@ Get the **Abilities** package from the Unity Asset Store following the link belo
 
 Once you have purchased it, click on the *Import* button on the website and the Unity Editor's Package Manager window should appear with the **Ability** package selected. Click on Download and Import afterwards.
 
-Once this process completed, you will have a new "Game Creator" menu at the top-toolbar. Open it the menu and click on *Install...* The following window will open.
+Once this process is completed, you will have a new "Game Creator" menu at the top-toolbar. Open the menu and click on *Install...* The following window will open.
 
 <figure markdown>
-  ![Image title](https://github.com/daimahou/documentation/blob/main/docs/img/install.png?raw=true){ width="600" }
-  <figcaption>Install window - Core</figcaption>
+  ![Image title](https://github.com/daimahou/documentation/blob/main/docs/img/install.png?raw=true){ width="600" }
+  <figcaption>Install window - Core</figcaption>
 </figure>
 
 Select **Abilities** in the menu tree, and then click on *Install x.y.z* button. This will automatically install all the necessary packages.
@@ -25,14 +25,14 @@ Select **Abilities** in the menu tree, and then click on *Install x.y.z* button.
 Let the process complete and if everything went fine, your console shouldn't have any errors. If you do, please feel free to reach out to our [support email](mailto:daimahou.studio@gmail.com).
 
 !!! tip "Using Git ? Add the following lines to your .gitignore file"
-    
-    ``` # Daimahou Games``` 
+     
+     ``` # Daimahou Games``` 
 
-    ``` /Assets/Plugins/DaimahouGames/Packages``` 
+     ``` /Assets/Plugins/DaimahouGames/Packages``` 
 
 ## Examples
 
-After the successful installation of both **Game Creator** and **Abilities**, another menu will appear in the Installation window. This menu will provide you with additional content in the form of *examples* to get you familiar with the different concepts that makes up **Abilities**.
+After the successful installation of both **Game Creator** and **Abilities**, another menu will appear in the Installation window. This menu will provide you with additional content in the form of *examples* to get you familiar with the different concepts that make up **Abilities**.
 
 
 For more information on how to install *examples*, please refer to the [following link](https://docs.gamecreator.io/gamecreator/getting-started/examples/).
@@ -41,13 +41,12 @@ For more information on how to install *examples*, please refer to the [followin
 Once installed, the example will appear under ```Assets/Plugins/GameCreator/Installs/``` or you can simply click the Select button to automatically select the example's folder.
 
 <figure markdown>
-  ![Image title](https://github.com/daimahou/documentation/blob/main/docs/img/install-examples.png?raw=true){ width="600" }
-  <figcaption>Install window - Examples</figcaption>
+  ![Image title](https://github.com/daimahou/documentation/blob/main/docs/img/install-examples.png?raw=true){ width="600" }
+  <figcaption>Install window - Examples</figcaption>
 </figure>
 
 !!! danger "Uninstallation"
 
-    Although examples can be uninstalled by simply clicking the Uninstall button. To uninstall Abilities and the Core module of Daimahou, simply pressing the uninstall button will NOT be enough. AFTER pressing uninstall, please delete the following folder :
+     Although examples can be uninstalled by simply clicking the Uninstall button. To uninstall Abilities and the Core module of Daimahou, simply pressing the uninstall button will NOT be enough. AFTER pressing uninstall, please delete the following folder :
 
-    ``` /Assets/Plugins/DaimahouGames/Packages ```
-
+     ``` /Assets/Plugins/DaimahouGames/Packages ```

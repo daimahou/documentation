@@ -2,11 +2,11 @@ site_name: Documentation
 site_url: https://docs.daimahougames.com/
 plugins:
     - search
-    # - with-pdf:
-    #     author: Gerard Nicolas
-    #     copyright: &copy 2022 DaimahouGames, Gerard Nicolas, All rights reserved.
-    #     cover_title: Daimahou Gameplay Modules
-    #     cover_subtitle: Documentation
+    - with-pdf:
+        author: Gerard Nicolas
+        copyright: &copy 2022 DaimahouGames, Gerard Nicolas, All rights reserved.
+        cover_title: Daimahou Gameplay Modules
+        cover_subtitle: Documentation
 nav:
     - Core:
       - index.md
